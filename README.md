@@ -1,5 +1,9 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+
+# Clone of https://github.com/carolinecolijn/distancing-impact-covid19
+Changes to default values of start and end time of f(t) decline
+
 ### Estimating the impact of COVID-19 control measures using a Bayesian model of physical distancing
 
 This repository contains code associated with a manuscript investigating

@@ -76,11 +76,11 @@ fit_seeiqr <- function(daily_cases,
                        fixed_f_forecast = NULL,
                        day_start_fixed_f_forecast = length(daily_cases) + 1,
                        pars = c(
-                         N = 5.1e6, D = 5, k1 = 1 / 5,
-                         k2 = 1, q = 0.05,
+                         N = 2.5e7, D = 5, k1 = 1 / 5,
+                         k2 = 1, q = 0.1,
                          r = 0.1, ur = 0.02, f1 = 1.0,
-                         start_decline = 15,
-                         end_decline = 22
+                         start_decline = 18,
+                         end_decline = 29
                        ),
                        i0 = 8,
                        fsi = pars[["r"]] / (pars[["r"]] + pars[["ur"]]),

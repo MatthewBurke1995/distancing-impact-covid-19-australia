@@ -77,9 +77,9 @@ fit_seeiqr <- function(daily_cases,
                        day_start_fixed_f_forecast = length(daily_cases) + 1,
                        pars = c(
                          N = 2.5e7, D = 5, k1 = 1 / 5,
-                         k2 = 1, q = 0.1,
+                         k2 = 1, q = 0.05,
                          r = 0.1, ur = 0.02, f1 = 1.0,
-                         start_decline = 18,
+                         start_decline = 23,
                          end_decline = 29
                        ),
                        i0 = 8,
